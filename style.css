@@ -1,44 +1,42 @@
 html {
     background: black url(background.jpg) center center no-repeat;
-    background-size: cover;
-    color: white;
+    background-size: contain;
+    color: rgb(24, 21, 21);
 }
 
 body{
     display: block;
     place-items: center;
-    margin: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 16px;
+    margin: 0em;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
     line-height: 1.5em;
 }
-@media (min-width: 500px;) {body {display: grid;}}
+@media (min-width: 200px) {body {display: grid;}}
 .Container {
-    margin: 2vh;
-    background: rgba(79, 109, 209, 0.8);
-    padding: 2rem;
+    margin: 0vh;
+    background: rgba(158, 167, 197, 0.8);
+    padding: 1rem;
     border-radius: 2rem;
     font-size: clamp(1rem, 2vw, 2rem);
     line-height: 1.5em;
 }
 
  
- .header {  }    
-    .Avatar { display: block; float: left; width: 100px;height: auto;
-    margin: 0 1em 0 0; border-radius: 50%;} 
-    @media (min-width: 200 px) { .Avatar{float: left;}}
-    .TitlulPaginii{ display: block; margin: 0; font-size: clamp(2rem, 6vw, 4rem);
-    line-height: 1em, ;}
+    
+    .Avatar { display: center; float: left; width: 100px;height: auto;
+    margin: 0 1em 0 0; border-radius: 10%;} 
+    @media (min-width: 160 px) { .Avatar{float: left;}}
+    .TitlulPaginii{ display: center; margin: 0; font-size: clamp(2rem, 6vw, 2rem);
+    line-height: 2em, ;}
 
-main{
 
-    }
          .ListaLinkuri{display: block; margin: 0; padding: 0; } 
-         @media (min-width: 180 px) { .ListaLinkuri{display: grid; grid-template-columns: 1fr 1 fr;}}
-            .ListeItem { display: block; margin: 0; padding: 0; border-bottom: 1px solid blueviolet;
-            border-top: 1px solid aliceblue;}
-            .Listalink:hover {background: white; color: black;}
-                .Listalink{ display: block; margin: 0;padding: 0.5em;color: peachpuff; text-decoration: none; }
-                   .ListaTitlu , .ListaText{display: block; font-size: 1em; line-height: 1.5em; margin: 0; padding: 0%; }
+         @media (min-width: 150 px) { .ListaLinkuri{display: grid; grid-template-columns: 1fr 1 fr;}}
+            .ListeItem { display: block; margin: 0; padding: 0; border-bottom: 2px solid blueviolet;
+            border-top: 2px solid aliceblue;}
+            .Listalink:hover {background: rgb(223, 12, 12); color: rgb(238, 0, 0);}
+                .Listalink{ display: contents; margin: 0;padding: 0.5em;color: peachpuff; text-decoration: none; }
+                   .ListaTitlu , .ListaText{display: center; font-size: 1em; line-height: 1.5em; margin: 0; padding: 0%; }
                      .ListaText { white-space: nowrap; overflow: hidden;
                     text-overflow: ellipsis; display: block;}
